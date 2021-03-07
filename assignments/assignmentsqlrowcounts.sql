@@ -1,13 +1,31 @@
 use employees;
 -- What is the row count of the DEPARTMENTS table?
-SELECT count(*) FROM departments;
+SELECT 
+    COUNT(*)
+FROM
+    departments;
 -- What is the row count of the DEPT_EMP table?
-SELECT count(*) FROM dept_emp;
+SELECT 
+    COUNT(*)
+FROM
+    dept_emp;
 -- What is the row count of the DEPT_MANAGER table?
-SELECT count(*) FROM dept_manager;
+SELECT 
+    COUNT(*)
+FROM
+    dept_manager;
 -- What is the row count of the EMPLOYEES table?
-SELECT count(*) FROM employees;
+SELECT 
+    COUNT(*)
+FROM
+    employees;
 -- What is the row count of the SALARIES table?
-SELECT count(*) FROM salaries;
+SELECT 
+    COUNT(*)
+FROM
+    salaries;
 -- What is the row count of the TITLES table?
-SELECT count(*) FROM titles;
+SELECT 
+    COUNT(*)
+FROM
+    titles;
